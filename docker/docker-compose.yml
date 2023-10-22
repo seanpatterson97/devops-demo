@@ -121,13 +121,14 @@ services:
     # image: wekanteam/wekan:v6.89
     # b) GitHub Container registry.
     # b1) Latest release tag:
-    image: ghcr.io/wekan/wekan:6.89
+    # image: ghcr.io/wekan/wekan:6.89
     # b2) Newest git commit automatic build:
     #image: ghcr.io/wekan/wekan:main
     # c) Quay:
     #image: quay.io/wekan/wekan:latest
     # d) Docker Hub:
     #image: wekanteam/wekan:latest
+    image: wekanteam/wekan:v7.10
     #-------------------------------------------------------------------------------------
     container_name: wekan-app
     # On CentOS 7 there is seccomp issue with glibc 6,
